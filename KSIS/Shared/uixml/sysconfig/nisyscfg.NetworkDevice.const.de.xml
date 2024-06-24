@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-  <str name="hostname">Host-Name</str>
-  <str name="ipaddress">IPv4-Adresse</str>
-  <str name="comments">Kommentare</str>
-</uistrings>

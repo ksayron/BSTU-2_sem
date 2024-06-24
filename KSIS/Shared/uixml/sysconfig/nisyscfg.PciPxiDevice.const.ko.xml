@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-  <str name="pcibus">PCI 버스</str>
-  <str name="pcidev">PCI 디바이스</str>
-  <str name="pcifunc">PCI 함수</str>
-</uistrings>

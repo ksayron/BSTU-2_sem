@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-<str name="selfcalibration">セルフキャリブレーション</str>
-<str name="lastcalibrated">キャリブレーション日</str>
-<str name="caltemperature">デバイス温度</str>
-<str name="selfcalcommand">セルフキャリブレーション</str>
-<str name="na">N/A</str>
-<str name="degC">℃</str>
-</uistrings>

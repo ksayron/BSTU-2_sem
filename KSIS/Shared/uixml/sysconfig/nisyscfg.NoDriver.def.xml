@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<item>
-	<group id="settings">
-		<message id="not-found" severity="warning">{not-associated}</message>
-		<command caption="ni.com/drivers">
-			<browse url="http://www.ni.com/downloads/ni-drivers"/>
-		</command>
-	</group>
-</item>

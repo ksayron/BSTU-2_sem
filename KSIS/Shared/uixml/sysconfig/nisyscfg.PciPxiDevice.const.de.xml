@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-  <str name="pcibus">PCI-Bus</str>
-  <str name="pcidev">PCI-Gerät</str>
-  <str name="pcifunc">PCI-Funktion</str>
-</uistrings>

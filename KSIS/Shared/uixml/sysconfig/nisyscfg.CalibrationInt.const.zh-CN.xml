@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-<str name="selfcalibration">自校准</str>
-<str name="lastcalibrated">校准日期</str>
-<str name="caltemperature">设备温度</str>
-<str name="selfcalcommand">自校准</str>
-<str name="na">N/A</str>
-<str name="degC">摄氏度</str>
-</uistrings>

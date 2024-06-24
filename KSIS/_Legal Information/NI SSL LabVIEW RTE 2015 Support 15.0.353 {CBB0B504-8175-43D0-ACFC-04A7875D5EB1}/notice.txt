@@ -1,9 +1,0 @@
-﻿NI SSL LabVIEW RTE_2015 Support
-
-This product uses the following technologies licensed under the corresponding licenses.
-
-****************************************
-
-DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
-
-This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.

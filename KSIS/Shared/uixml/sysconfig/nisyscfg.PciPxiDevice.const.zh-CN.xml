@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-<str name="pcibus">PCI总线</str>
-<str name="pcidev">PCI设备</str>
-<str name="pcifunc">PCI功能</str>
-</uistrings>

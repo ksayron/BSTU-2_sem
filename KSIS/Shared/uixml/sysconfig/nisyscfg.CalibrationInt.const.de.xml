@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-  <str name="selfcalibration">Selbstkalibrierung</str>
-  <str name="lastcalibrated">Datum der Kalibrierung</str>
-  <str name="caltemperature">Gerätetemperatur</str>
-  <str name="selfcalcommand">Selbstkalibrierung</str>
-  <str name="na">k. A.</str>
-  <str name="degC">°C</str>
-</uistrings>

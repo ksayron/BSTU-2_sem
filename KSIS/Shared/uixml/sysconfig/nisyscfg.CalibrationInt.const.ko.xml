@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<uistrings>
-  <str name="selfcalibration">자기 교정</str>
-  <str name="lastcalibrated">교정 날짜</str>
-  <str name="caltemperature">디바이스 온도</str>
-  <str name="selfcalcommand">자기 교정</str>
-  <str name="na">N/A</str>
-  <str name="degC">°C</str>
-</uistrings>
