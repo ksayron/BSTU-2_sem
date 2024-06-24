@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ElectronicsWorkbench Schema="66">
+<DataExportContainer Class="CExportContainer" Name="" SortNum="0">
+<DrillExport Class="CDrillExport" ToExport="0" Decimals="4" Integers="3" Metric="1" Unit="&amp;ASCnm"/>
+<CentroidExport Class="CCentroidExport" ToExport="1" Text="1" Comma="0" HTML="0" Unit="&amp;ASCmm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASCREFDES" Width="159" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCVALUE" Width="147" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCSHAPE" Width="147" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCX_CENTRE[mm]" Width="144" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASCY_CENTRE[mm]" Width="144" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASCROT" Width="72" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASCSIDE" Width="96" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCTYPE" Width="96" Options="4"/>
+</VectorStringTable>
+</CentroidExport>
+<BomExport Class="CBomExport" ToExport="0" Text="1" Comma="0" HTML="0" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASCVALUE" Width="147" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCSHAPE" Width="147" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASC#" Width="48" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCREFDES" Width="159" Options="4"/>
+</VectorStringTable>
+</BomExport>
+<BoardDataExport Class="CBoardDataExport" ToExport="0" Text="1" Comma="0" HTML="0" Unit="&amp;ASCmm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASC " Width="312" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASC " Width="168" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASC " Width="600" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASC " Width="96" Options="4"/>
+</VectorStringTable>
+</BoardDataExport>
+<DXFExport Class="CDXFExport" ToExport="0" UnitName="&amp;ASCmm">
+<Layer Name="&amp;ASCBoard Outline"/>
+</DXFExport>
+<ThreeDDXFExport Class="C3DDXFExport" ToExport="0" UnitName="&amp;ASCmm" ExportComponents="1" ExportPins="1" ExportBoardOutline="1" ExportSilk="0" ExportCopper="0"/>
+<TestPointExport Class="CTestPointExport" ToExport="0" Text="1" Comma="0" HTML="0" Unit="&amp;ASCmm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASCREFDES" Width="159" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCCoordinate" Desc="&amp;ASCCoordinate[mm]" Width="336" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASCDiameter" Desc="&amp;ASCDiameter[mm]" Width="180" Options="16"/>
+<Column Class="CColumn" Name="&amp;ASCBoard side" Width="144" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCRotation" Width="120" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCType" Width="180" Options="4"/>
+</VectorStringTable>
+</TestPointExport>
+<CopperAmountExport Class="CCopperAmountExport" ToExport="0" Text="1" Comma="0" HTML="0" Unit="&amp;ASCmm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASCLayer" Width="264" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCArea" Desc="&amp;ASCArea[mm*mm]" Width="192" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCLength" Desc="&amp;ASCLength[mm]" Width="192" Options="4"/>
+</VectorStringTable>
+</CopperAmountExport>
+<ThreeDIGESExport Class="C3DIGESExport" ToExport="0" Unit="&amp;ASCnm" ExportComponents="1" ExportPins="1" ExportBoardOutline="1" ExportSilk="0" ExportCopper="0"/>
+<ExportBase Class="CIPCD356AExport" ToExport="1"/>
+<LayerStackExport Class="CLayerStackExport" ToExport="0" Text="1" Comma="0" HTML="0" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0">
+<Column Class="CColumn" Name="&amp;ASCCopper Top" Width="208" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCCopper Inner 1" Width="256" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCCopper Inner 2" Width="256" Options="4"/>
+<Column Class="CColumn" Name="&amp;ASCCopper Bottom" Width="244" Options="4"/>
+</VectorStringTable>
+</LayerStackExport>
+<GerberExport Class="CGerberExport" ToExport="1" Integer="3" Decimal="4" Metric="1" Reflection="0" BoardOutline="0" OversizeSoldermask="0" OversizeSoldermaskBot="0" OversizeSolderpaste="0" MinimumOversize="0" MinimumOversizeBot="0" MinimumOversizePaste="0" Tolerance="0" ShowDrillHoles="0" Negative="0">
+<Layer Name="&amp;ASCSolder paste Top"/>
+<Layer Name="&amp;ASCSolder paste Bot"/>
+<GroupMap GroupCount="0"/>
+</GerberExport>
+<GerberExport Class="CGerberDExport" ToExport="0" Integer="3" Decimal="4" Metric="1" Reflection="0" BoardOutline="0" OversizeSoldermask="0" OversizeSoldermaskBot="0" OversizeSolderpaste="0" MinimumOversize="0" MinimumOversizeBot="0" MinimumOversizePaste="0" Tolerance="0" ShowDrillHoles="0" Negative="0">
+<Layer Name="&amp;ASCSolder paste Top"/>
+<Layer Name="&amp;ASCSolder paste Bot"/>
+<GroupMap GroupCount="0"/>
+</GerberExport>
+<SVGExport Class="CSVGExport" ToExport="0" Compressed="0" MinStrokeWidth="100"/>
+</DataExportContainer>
+</ElectronicsWorkbench>

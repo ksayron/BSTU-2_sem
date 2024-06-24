@@ -1,0 +1,223 @@
+<PLDConfiguration Version="1.1">
+	<Component Name="NI Digital Systems Development Board" PartNumber="XC7Z020" Version="2.0" OpVoltageInput="3.3" OpVoltageOutput="3.3" OpVoltageBidirectional="3.3" BoardId="">
+		<DeviceList BoardName="NI Digital Systems Development Board">
+			<XilinxDevice Manufacturer="Xilinx" Family="Zync-7000" Device="XC7Z020" Package="CLG484" Speed="-1" DeviceOffset="1" DeviceId="" Ucf="DSDB.xdc" />
+		</DeviceList>
+		<Pins Locked="1">
+			<Pin Place="0" Mode="in" Name="SYSCLK_125MHZ" Location="right" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="AC_BCLK" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="AC_MCLK" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="AC_MUTEN" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="AC_PBDAT" Location="right" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="AC_PBLRC" Location="right" />
+			<Pin Place="0" Mode="in" GeneralPurpose="1" Name="AC_RECDAT" Location="right" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="AC_RECLRC" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="AC_SCL" Location="right" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="AC_SDA" Location="right" />
+
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="ADC_CS" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="ADC_SCLK" Location="right" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="ADC_SDI" Location="right" />
+			<Pin Place="0" Mode="in" GeneralPurpose="1" Name="ADC_SDO" Location="right" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BB_S_DIO7" Location="left" />
+
+			<Pin Place="1" Mode="in" Name="BTN0" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN1" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN2" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN3" Location="left" />
+
+			<Pin Place="0" Mode="out" Name="POWER_RESET" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="CRYPTO_SDA" Location="left" />
+
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="DAC_DIN_B" Location="left" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="DAC_LDAC_B" Location="left" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="DAC_SCLK_B" Location="left" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="DAC_SYNC_B" Location="left" />
+
+			<Pin Place="0" Mode="in" GeneralPurpose="1" Name="ETH_INT_B" Location="left" />
+			<Pin Place="0" Mode="in" GeneralPurpose="1" Name="ETH_RST_B" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_CEC" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_CLK_N" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_CLK_P" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_N0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_P0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_N1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_P1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_N2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_D_P2" Location="left" />
+			<Pin Place="0" Mode="out" GeneralPurpose="1" Name="HDMI_HPD" Location="left" />
+			<Pin Place="0" Mode="in" GeneralPurpose="1" Name="HDMI_OUT_EN" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_SCL" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="HDMI_SDA" Location="left" />
+
+			<Pin Place="1" Mode="out" Name="LED0" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED1" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED2" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED3" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED4" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED5" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED6" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED7" Location="right" />
+
+			<Pin Place="0" Mode="out" Name="OLED_DC" Location="right" />
+			<Pin Place="0" Mode="out" Name="OLED_RES" Location="right" />
+			<Pin Place="0" Mode="out" Name="OLED_SCLK" Location="right" />
+			<Pin Place="0" Mode="out" Name="OLED_SDIN" Location="right" />
+			<Pin Place="0" Mode="out" Name="OLED_VBAT" Location="right" />
+			<Pin Place="0" Mode="out" Name="OLED_VDD" Location="right" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO8" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO9" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO10" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO11" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO12" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO13" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO14" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_DIO15" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_PFI_8" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_PFI_9" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PBC_PFI_12" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PS2_CLK0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PS2_DATA0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PS2_CLK1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="PS2_DATA1" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO8" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO9" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO10" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO11" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO12" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO13" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO14" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="MXP_DIO15" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_UART_RX" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_UART_TX" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JA7" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="S_JB7" Location="left" />
+
+			<Pin Place="1" Mode="out" Name="SSEG_AN0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_AN1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_AN2" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_AN3" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CA" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CB" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CC" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CD" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CE" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CF" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_CG" Location="right" />
+			<Pin Place="1" Mode="out" Name="SSEG_DP" Location="right" />
+
+			<Pin Place="1" Mode="in" Name="SW0" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW1" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW2" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW3" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW4" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW5" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW6" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW7" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_R7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_G7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B0" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B1" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_B7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_DCLK" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_DE" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_DISP" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_HS" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TFT_VS" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="BCK_DIM" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TP_IRQ" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TP_RES" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TP_SCK" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="TP_SDA" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="UART_RXD_OUT" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="UART_TXD_IN" Location="left" />
+
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_R3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_R4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_R5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_R6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_R7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G2" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_G7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_B3" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_B4" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_B5" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_B6" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_B7" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_HS" Location="left" />
+			<Pin Place="0" Mode="bidir" GeneralPurpose="1" Name="VGA_VS" Location="left" />		
+		</Pins>
+	</Component>
+</PLDConfiguration>

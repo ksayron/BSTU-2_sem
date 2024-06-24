@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="systemres">시스템 리소스</str>
+	<str name="totalmem">전체 물리적 메모리</str>
+	<str name="freemem">사용가능 물리적 메모리</str>
+	<str name="totalvirt">전체 버추얼 메모리</str>
+	<str name="freevirt">사용가능 버추얼 메모리</str>
+	<str name="largestblock">최대 사용가능 메모리 블록</str>
+	<str name="totaldisk">주요 디스크 용량</str>
+	<str name="freedisk">사용가능 주요 디스크 공간</str>
+	<str name="value-error">에러</str>
+	<str name="cputotal">CPU 전체 로드</str>
+	<str name="cpuintr">CPU 인터럽트 로드</str>
+</uistrings>

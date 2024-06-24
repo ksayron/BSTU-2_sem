@@ -1,0 +1,9 @@
+﻿NI LabWindows/CVI 2013 SP2 Analysis Library
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.

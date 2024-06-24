@@ -1,0 +1,80 @@
+# This file is a general .ucf for Basys2 rev C board
+# To use it in a project:
+# - remove or comment the lines corresponding to unused pins
+# - rename the used signals according to the project
+
+# clock pin for Basys2 Board
+
+NET "CLK1" LOC = "B8"; # Bank = 0, Signal name = MCLK
+
+NET "Led_0" LOC = "M5" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_1" LOC = "M11" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_2" LOC = "P7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_3" LOC = "P6" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_4" LOC = "N5" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_5" LOC = "N4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_6" LOC = "P4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+NET "Led_7" LOC = "G1" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+NET "btn_0" LOC = "G12";
+NET "btn_1" LOC = "C11";
+NET "btn_2" LOC = "M4" ;
+NET "btn_3" LOC = "A7" ;
+
+NET "an_3" LOC = "K14" ; # Bank = 1, Signal name = AN3
+NET "an_2" LOC = "M13" ; # Bank = 1, Signal name = AN2
+NET "an_1" LOC = "J12" ; # Bank = 1, Signal name = AN1
+NET "an_0" LOC = "F12" ; # Bank = 1, Signal name = AN0
+
+NET "seg_0" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "seg_1" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "seg_2" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "seg_3" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "seg_4" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "seg_5" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "seg_6" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "dp" LOC = "N13"; # Bank = 1, Signal name = DP
+
+NET "sw_7" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "sw_6" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "sw_5" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "sw_4" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "sw_3" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "sw_2" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "sw_1" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "sw_0" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "HSYNC" LOC = "J14"; # Bank = 1, Signal name = HSYNC
+NET "VSYNC" LOC = "K13"; # Bank = 1, Signal name = VSYNC
+NET "OutRed_2" LOC = "F13"; # Bank = 1, Signal name = RED2
+NET "OutRed_1" LOC = "D13"; # Bank = 1, Signal name = RED1
+NET "OutRed_0" LOC = "C14"; # Bank = 1, Signal name = RED0
+NET "OutGreen_2" LOC = "G14"; # Bank = 1, Signal name = GRN2
+NET "OutGreen_1" LOC = "G13"; # Bank = 1, Signal name = GRN1 
+NET "OutGreen_0" LOC = "F14"; # Bank = 1, Signal name = GRN0 
+NET "OutBlue_2" LOC = "J13"; # Bank = 1, Signal name = BLU2
+NET "OutBlue_1" LOC = "H13"; # Bank = 1, Signal name = BLU1
+
+NET "PS2C" LOC = "B1"; # Bank = 3, Signal name = PS2C
+NET "PS2D" LOC = "C3"; # Bank = 3, Signal name = PS2D 
+
+# Loop Back only tested signals
+NET "JA_0" LOC = "B2"; 
+NET "JA_1" LOC = "A3";  
+NET "JA_2" LOC = "J3";  
+NET "JA_3" LOC = "B5";  
+
+NET "JB_0" LOC = "C6";  
+NET "JB_1" LOC = "B6";  
+NET "JB_2" LOC = "C5";  
+NET "JB_3" LOC = "B7";  
+
+NET "JC_0" LOC = "A9";  
+NET "JC_1" LOC = "B9";  
+NET "JC_2" LOC = "A10"; 
+NET "JC_3" LOC = "C9";  
+
+NET "JD_0" LOC = "C12";  
+NET "JD_1" LOC = "A13";  
+NET "JD_2" LOC = "C13";  
+NET "JD_3" LOC = "D12";  

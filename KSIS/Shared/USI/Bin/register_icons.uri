@@ -1,0 +1,126 @@
+<usireginfo>
+    
+    <substitution name="USI">
+        <regkey>Software\National Instruments\Common\USI</regkey>
+        <regvalue>binDir</regvalue>
+        <type>path</type>
+    </substitution>
+    <!-- register default storetypes for adding icons -->
+    
+    <storetype name="AOP">
+        <alias>AOP</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>1</exportsupported>
+        <description>ASAM ODS Server (Version 3, 3.2)</description>
+        <filepath>gfsaop3.dll</filepath>
+        <guifilepath>gfsaop3.ocx</guifilepath>
+        <guiprogid>NIUSI.config.aop3.1</guiprogid>
+        <caching>1</caching>
+        <system>0</system>
+        <filtercasesensitive>YES</filtercasesensitive>
+        <iconinfo>"gfsaop3.dll" ICON_RESOURCE 5001</iconinfo>
+    </storetype>
+    
+    <storetype name="SQL">
+        <filefilters extension="mdb">
+             <description>MDB files (*.mdb)</description>
+        </filefilters>
+        <filefilters extension="accdb">
+             <description>ACCDB files (*.accdb)</description>
+        </filefilters>
+        <alias>SQL</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>0</exportsupported>
+        <description>SQL Table Reader</description>
+        <filepath>SQLDriv.dll</filepath>
+        <guifilepath>SQLDriv.ocx</guifilepath>
+        <guiprogid>NIUSI.config.sql.1</guiprogid>
+        <defaultconfiguration>"SQLDriv.ocx" StpFiles 22222</defaultconfiguration>
+        <caching>0</caching>
+        <system>0</system>
+        <filtercasesensitive>YES</filtercasesensitive>
+        <iconinfo>"SQLDriv.dll" ICON_RESOURCE 5001</iconinfo>
+    </storetype>
+    
+    <storetype name="VI Logger">
+        <alias>Citadel</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>0</exportsupported>
+        <description>VI Logger</description>
+        <filepath>CitadelDL.dll</filepath>
+        <guifilepath>CitadelDL.ocx</guifilepath>
+        <guiprogid>NIUSI.config.vilogger.1</guiprogid>
+        <defaultconfiguration>"CitadelDL.ocx" StpFiles 22222</defaultconfiguration>
+        <caching>1</caching>
+        <system>1</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"CitadelDL.ocx" ICON_RESOURCE 5001</iconinfo>
+    </storetype>
+
+    <storetype name="Citadel4">
+        <alias>Citadel4</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>0</exportsupported>
+        <description>Citadel 4 (LabVIEW DSC Module, Lookout)</description>
+        <filepath>Cit43drv.dll</filepath>
+        <guifilepath>Cit43drv.ocx</guifilepath>
+        <guiprogid>NIUSI.config.citadel4.1</guiprogid>
+        <defaultconfiguration>"Cit43drv.ocx" StpFiles 22222</defaultconfiguration>
+        <caching>0</caching>
+        <system>0</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"Cit43drv.ocx" ICON_RESOURCE 5001</iconinfo>
+    </storetype>
+
+    <storetype name="Citadel5">
+        <description>Citadel 5 (LabVIEW DSC Module, Lookout)</description>
+        <alias>Citadel5</alias>
+        <importsupported>YES</importsupported>
+        <exportsupported>NO</exportsupported>
+        <filepath>nicitusi.dll</filepath>
+        <defaultconfiguration>"nicitusi.ocx" StpFiles 2222</defaultconfiguration>
+        <caching>NO</caching>
+        <guifilepath>nicitusi.ocx</guifilepath>
+        <guiprogid>NICITUSI.USIConfigDlg.1</guiprogid>
+        <system>0</system>
+        <iconinfo>"Cit43drv.ocx" ICON_RESOURCE 5002</iconinfo>
+    </storetype>
+
+    <!-- Set system flag for USF -->
+    <storetype name="USF">
+        <defaultfiltefilter extension="usf"/>
+        <filefilters extension="usf">
+             <description>NI Universal Storage Format (*.usf)</description>
+        </filefilters>
+        <alias>USF</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>1</exportsupported>
+        <description>NI Universal Storage Format</description>
+        <filepath>usiPluginTDM.dll</filepath>
+        <caching>1</caching>
+        <system>1</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"usiPluginTDM.dll" ICON_RESOURCE 5001</iconinfo>
+        <protected>1</protected>
+        <platform>win32</platform>
+    </storetype>
+    
+        <storetype name="USF">
+        <defaultfiltefilter extension="usf"/>
+        <filefilters extension="usf">
+             <description>NI Universal Storage Format (*.usf)</description>
+        </filefilters>
+        <alias>USF</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>1</exportsupported>
+        <description>NI Universal Storage Format</description>
+        <filepath>usiPluginTDM.dll</filepath>
+        <caching>1</caching>
+        <system>1</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"usiPluginTDM.dll" ICON_RESOURCE 5001</iconinfo>
+        <protected>1</protected>
+        <platform>x64</platform>
+    </storetype>
+
+</usireginfo>

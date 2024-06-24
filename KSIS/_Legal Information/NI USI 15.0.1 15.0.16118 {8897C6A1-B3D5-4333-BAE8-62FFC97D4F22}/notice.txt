@@ -1,0 +1,153 @@
+﻿NI USI 15.0.1
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE BSD 3-CLAUSE LICENSE 
+
+This product includes code from B64 2006 1.1.3 licensed by a third party or parties pursuant to the 3-clause BSD license, which can be found at "..\..\Shared\MDF\Legal\license\BSD\3.0.0" and that is subject to the following notice(s):
+
+Copyright (c) 2001-2010, Matthew Wilson and Synesis Software.
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Matthew Wilson and Synesis Software Pty Ltd. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR PROPRIETARY SOFTWARE
+
+This product includes code from GemBox.Spreadsheet 3.7 licensed by a third party or parties that is subject to the following notice(s):
+
+www.gemboxsoftware.com
+
+****************************************
+
+DOCUMENTATION NOTICE FOR HDF5 LICENSE
+
+This product includes code from HDF5 1.8.10 licensed by a third party or parties pursuant to the to the HDF5 License, which can be found at "..\..\Shared\MDF\Legal\license\HDF\HDF5" and that is subject to the following notice(s):
+
+Copyright 2006-2012 by The HDF Group
+
+****************************************
+
+DOCUMENTATION NOTICE FOR ICU License
+
+This product includes code from ICU 2.4.0 licensed by a third party or parties pursuant to the to the ICU License,
+which can be found at "..\..\Shared\MDF\Legal\license\ICU" and that is subject to the following notice(s):
+
+Copyright (c) 1995-2011 International Business Machines Corporation and others
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that the above copyright notice(s) and this permission notice appear in all copies of the Software and that both the above copyright notice(s) and this permission notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+
+--------------------------------------------------------------------------------
+
+All trademarks and registered trademarks mentioned herein are the property of their respective owners.
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE ZLIB LICENSE
+
+This product includes code from Minizip 1.1 licensed by a third party or parties pursuant to the zlib software license, which can be found at "..\..\Shared\MDF\Legal\license\zlib\1.0.0" and that is subject to the following notice(s):
+
+Copyright (c) 1998-2010 - by Gilles Vollant - version 1.1 64 bits from Mathias Svensson
+
+This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR PROPRIETARY SOFTWARE
+
+This product includes code from Rogue Wave Stingray Studio licensed by a third party or parties that is subject to the following notice(s):
+
+This software includes Stingray software developed by the Rogue Wave Software division of Quovadx, Inc.  Copyright 1995-2006, Quovadx, Inc.  All Rights Reserved.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR PROPRIETARY SOFTWARE
+
+This product includes code from Rogue Wave Stingray Studio 11.0 licensed by a third party or parties that is subject to the following notice(s):
+
+This software includes Stingray software developed by the Rogue Wave Software division of Quovadx, Inc.  Copyright 1995-2010, Rogue Wave Software, Inc.  All Rights Reserved.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR STLPORT
+
+This product includes code from STLport 5.2.1 licensed by a third party or parties pursuant to the STLport software license, which can be found at "..\..\Shared\MDF\Legal\license\STLPort\1.0.0" and that is subject to the following notice(s):
+
+Copyright 1999,2000 Boris Fomitchev
+Copyright 1994 Hewlett-Packard Company
+Copyright 1996,97 Silicon Graphics Computer Systems, Inc.
+Copyright 1997 Moscow Center for SPARC Technology.
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR APACHE LICENSE (2.0)
+
+This product includes code from Apache Xerces-C++ 3.1.1 licensed by a third party or parties pursuant to the Apache License, Version 2.0, which can be found at "..\..\Shared\MDF\Legal\license\Apache\2.0.0" and that is subject to the following notice(s):
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+Copyright (c) 1999-2010 The Apache Software Foundation. All rights reserved.
+
+Portions of this software were originally based on the following: software copyright (c) 1999, IBM Corporation., http://www.ibm.com.
+
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE ZLIB LICENSE
+
+This product includes code from Zlib 1.2.8 licensed by a third party or parties pursuant to the zlib software license, which can be found at "..\..\Shared\MDF\Legal\license\zlib\1.0.0" and that is subject to the following notice(s):
+
+Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+Jean-loup Gailly (jloup@gzip.org) and Mark Adler (madler@alumni.caltech.edu)
+

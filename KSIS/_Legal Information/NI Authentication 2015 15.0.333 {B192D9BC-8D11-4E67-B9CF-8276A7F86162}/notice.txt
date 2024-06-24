@@ -1,0 +1,75 @@
+﻿NI Authentication 2015
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE BSD 3-CLAUSE LICENSE 
+
+This product includes code from SRP Authentication 2.1.2 licensed by a third party or parties pursuant to the 3-clause BSD license, which can be found at "..\..\Shared\MDF\Legal\license\BSD\3.0.0" and that is subject to the following notice(s):
+
+Copyright (c) 1997-2007 The Stanford SRP Authentication Project.
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of The Stanford SRP Authentication Project nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR BOOST SOFTWARE LICENSE (1.0)
+
+This product includes code from Boost 1.55.0 licensed by a third party or parties pursuant to the Boost Software License 1.0, which can be found at "..\..\Shared\MDF\Legal\license\Boost\1.0.0" and that is subject to the following notice(s):
+
+Copyright Beman Dawes, David Abrahams, 1998-2005
+
+****************************************
+
+DOCUMENTATION NOTICE FOR CRYPTOPP LICENSE
+
+This product includes code from Crypto++ 5.6 licensed by a third party or parties pursuant to the CryptoPP software license, which can be found at "..\..\Shared\MDF\Legal\license\CryptoPP\5.6.0" and that is subject to the following notice(s):
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR MARS
+
+This product includes code from Crypto++ 5.6 licensed by a third party or parties pursuant to the MARS software license, which can be found at "..\..\Shared\MDF\Legal\license\MARS\1.0.0" and that is subject to the following notice(s):
+
+This is an independent implementation of the MARS encryption algorithm designed by a team at IBM as a candidate for the US NIST Advanced Encryption Standard (AES) effort. The algorithm is subject to Patent action by IBM, who intend to offer royalty free use if a Patent is granted.
+
+Copyright in this implementation is held by Dr B R Gladman but I hereby give permission for its free direct or derivative use subject to acknowledgment of its origin and compliance with any constraints that IBM place on the use of the MARS algorithm.
+
+Dr Brian Gladman (gladman@seven77.demon.co.uk) 4th October 1998
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE BSD 3-CLAUSE LICENSE 
+
+This product includes code from SIMD-oriented Fast Mersenne Twister licensed by a third party or parties pursuant to the 3-clause BSD license, which can be found at "..\..\Shared\MDF\Legal\license\BSD\3.0.0" and that is subject to the following notice(s):
+
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of SFMT nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+

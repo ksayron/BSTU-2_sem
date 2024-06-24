@@ -1,0 +1,17 @@
+﻿NI LabWindows/CVI 2013 SP2 Network Streams Library
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR BOOST SOFTWARE LICENSE (1.0)
+
+This product includes code from Boost 1.55.0 licensed by a third party or parties pursuant to the Boost Software License 1.0, which can be found at "..\..\Shared\MDF\Legal\license\Boost\1.0.0" and that is subject to the following notice(s):
+
+Copyright Beman Dawes, David Abrahams, 1998-2005

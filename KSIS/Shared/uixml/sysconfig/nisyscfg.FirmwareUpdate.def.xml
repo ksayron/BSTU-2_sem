@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<rules>
+		<if>
+			<condition>
+				<!-- IsPresentStatus == NotPresent -->
+				<eq sysattr="16924672" value="0"/>
+			</condition>
+			<setcmd id="settings.updatefirmware" enable="false"/>
+		</if>
+	</rules>
+
+	<group id="settings" weight="0">
+		<command id="updatefirmware" caption="{updatefirmware}" order="20" />
+	</group>
+</item>

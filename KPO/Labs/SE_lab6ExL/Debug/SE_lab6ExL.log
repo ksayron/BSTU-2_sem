@@ -1,0 +1,24 @@
+﻿Сборка начата 26/04/2024 3:13:41 PM.
+Уровень детализации журнала: Normal.     1>Проект "D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\SE_lab6ExL.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\SE_lab6ExL.tlog\SE_lab6ExL.lastbuildstate" удаляется.
+       CoreClean:
+         Файл "D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\Debug\SE_lab6ExL.lib" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\SE_lab6ExL.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\Debug\SE_lab6ExL.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+       Lib:
+         D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\Lib.exe /OUT:"D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\Debug\SE_lab6ExL.lib" /NOLOGO /MACHINE:X86 Debug\Dictionary.obj
+         SE_lab6ExL.vcxproj -> D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\Debug\SE_lab6ExL.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_lab6ExL.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_lab6ExL.tlog\SE_lab6ExL.lastbuildstate".
+     1>Сборка проекта "D:\BSTU\2 sem\KPO\Labs\SE_lab6ExL\SE_lab6ExL.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:04.11

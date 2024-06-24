@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="extcalibration">外部校准</str>
+<str name="lastcalibrated">校准日期</str>
+<str name="recommendednext">下次校准建议日期</str>
+<str name="extcalduedate">校准截止日期</str>
+<str name="recommendedint">推荐间隔</str>
+<str name="caltemperature">设备温度</str>
+<str name="calcomments">注释</str>
+<str name="na">N/A</str>
+<str name="degC">摄氏度</str>
+<str name="months"> 月</str>
+<str name="changecalpassword">更改密码</str>
+</uistrings>

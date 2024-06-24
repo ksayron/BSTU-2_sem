@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<v2:binding xmlns:v2="http://www.ni.com/uixml/binding/v2.0">
+  <v2:and>
+    <!-- sysattr=ItemIsDevice -->
+    <v2:eq sysattr="16781312" value="true" />
+    <!-- sysattr=HasDriver -->
+    <v2:eq sysattr="16920576" value="0" />
+    <!-- sysattr=IsProductNI -->
+    <v2:eq sysattr="16809984" value="true" />
+    <!-- sysattr=SimulatedVirtual -->
+    <v2:eq sysattr="16814080" value="false" />
+    <!-- sysattr=IsPresentStatus -->
+    <v2:eq sysattr="16924672" value="1" />
+  </v2:and>
+</v2:binding>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="extcalibration">Étalonnage externe</str>
+  <str name="lastcalibrated">Date d&apos;étalonnage</str>
+  <str name="recommendednext">Prochain étalonnage recommandé</str>
+  <str name="extcalduedate">Date du prochain étalonnage</str>
+  <str name="recommendedint">Intervalle recommandé</str>
+  <str name="caltemperature">Température de périphérique</str>
+  <str name="calcomments">Commentaires</str>
+  <str name="na">N/A</str>
+  <str name="degC">°C</str>
+  <str name="months"> mois</str>
+  <str name="changecalpassword">Changer le mot de passe</str>
+</uistrings>

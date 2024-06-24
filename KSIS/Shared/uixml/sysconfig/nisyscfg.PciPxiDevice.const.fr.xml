@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="pcibus">Bus PCI</str>
+  <str name="pcidev">Périphérique PCI</str>
+  <str name="pcifunc">Fonction PCI</str>
+</uistrings>

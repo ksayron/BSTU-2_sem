@@ -1,0 +1,104 @@
+<PLDConfiguration Version="1.1">
+	<Component Name="Digilent Basys 3" PartNumber="XC7A35T" Version="2.0" OpVoltageInput="3.3" OpVoltageOutput="3.3" OpVoltageBidirectional="3.3" BoardId="ddeef62f-fbbb-4423-9f51-e6363b944286">
+		<DeviceList BoardName="Digilent Basys 3">
+			<XilinxDevice Manufacturer="Xilinx" Family="Artix-7" Device="XC7A35T" Package="CPG236" Speed="-1" DeviceOffset ="1" DeviceId="00010001110000010000000010010011" Ucf="DigilentBasys3.ucf" />
+		</DeviceList>
+		<ProgrammingProperties>
+			<Interface CableTarget="digilent_plugin"/>
+		</ProgrammingProperties>
+		<Pins Locked="1">                                                                                                                 	
+			<Pin Name="CLK" Mode="in" Location="left" Place="0" />
+			
+            <Pin Name="SW0" Mode="in" Location="left" Place="1" />
+			<Pin Name="SW1" Mode="in" Location="left" Place="1" />
+			<Pin Name="SW2" Mode="in" Location="left" Place="1" />
+			<Pin Name="SW3" Mode="in" Location="left" Place="1" />
+			<Pin Name="SW4" Mode="in" Location="left" Place="1" />
+			<Pin Name="SW5" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW6" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW7" Mode="in" Location="left" Place="0" />
+            <Pin Name="SW8" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW9" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW10" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW11" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW12" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW13" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW14" Mode="in" Location="left" Place="0" />
+			<Pin Name="SW15" Mode="in" Location="left" Place="0" />
+            
+			<Pin Name="LED0" Mode="out" Location="right" Place="1" />
+		    <Pin Name="LED1" Mode="out" Location="right" Place="1" />
+			<Pin Name="LED2" Mode="out" Location="right" Place="1" />
+			<Pin Name="LED3" Mode="out" Location="right" Place="1" />
+			<Pin Name="LED4" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED5" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED6" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED7" Mode="out" Location="right" Place="0" />
+            <Pin Name="LED8" Mode="out" Location="right" Place="0" />
+		    <Pin Name="LED9" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED10" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED11" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED12" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED13" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED14" Mode="out" Location="right" Place="0" />
+			<Pin Name="LED15" Mode="out" Location="right" Place="0" /> 
+			
+			<Pin Name="BTNC" Mode="in" Location="left" Place="1" />
+			<Pin Name="BTNU" Mode="in" Location="left" Place="1" />
+			<Pin Name="BTNL" Mode="in" Location="left" Place="1" />
+			<Pin Name="BTNR" Mode="in" Location="left" Place="1" />
+            <Pin Name="BTND" Mode="in" Location="left" Place="1" />
+            
+            <Pin Name="AN0" Mode="out" Location="right" Place="0" />
+			<Pin Name="AN1" Mode="out" Location="right" Place="0" />
+			<Pin Name="AN2" Mode="out" Location="right" Place="0" />
+			<Pin Name="AN3" Mode="out" Location="right" Place="0" />
+            
+            <Pin Name="CA" Mode="out" Location="right" Place="0" />
+			<Pin Name="CB" Mode="out" Location="right" Place="0" />
+			<Pin Name="CC" Mode="out" Location="right" Place="0" />
+			<Pin Name="CD" Mode="out" Location="right" Place="0" />
+			<Pin Name="CE" Mode="out" Location="right" Place="0" />
+			<Pin Name="CF" Mode="out" Location="right" Place="0" />
+			<Pin Name="CG" Mode="out" Location="right" Place="0" />
+            <Pin Name="DP" Mode="out" Location="right" Place="0"/>  
+            
+            <Pin Name="JA0" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA1" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA2" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA3" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA4" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA5" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA6" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JA7" Mode="in" Location="left" Place="0"/>
+            
+            <Pin Name="JB0" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB1" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB2" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB3" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB4" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB5" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB6" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JB7" Mode="out" Location="right" Place="0"/>
+            
+            <Pin Name="JC0" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC1" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC2" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC3" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC4" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC5" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC6" Mode="out" Location="right" Place="0"/>
+            <Pin Name="JC7" Mode="out" Location="right" Place="0"/>
+            
+            <Pin Name="JXA0" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA1" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA2" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA3" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA4" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA5" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA6" Mode="in" Location="left" Place="0"/>
+            <Pin Name="JXA7" Mode="in" Location="left" Place="0"/>
+                    
+        </Pins>
+	</Component>
+</PLDConfiguration>

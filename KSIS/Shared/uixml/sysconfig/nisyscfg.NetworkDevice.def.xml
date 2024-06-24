@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<rules>
+		<if>
+			<condition>
+				<!-- mxSysAttrTag_TcpSupportUpdateSystemSettings -->
+				<eq sysattr="17240064" value="true"/>
+			</condition>
+			<setprop id="settings.hostname" writable="true"/>
+			<setprop id="settings.comments" writable="true"/>
+		</if>
+	</rules>
+	<group id="settings" caption="{settings}" order="0" weight="0">
+		<property id="hostname" caption="{hostname}" sysattr="16928768" order="100"/>
+		<property id="scs_ipaddr" caption="{ipaddress}" sysattr="0" order="1000"/>
+		<property id="comments" caption="{comments}" sysattr="17027072" order="40000">
+			<strlenrange maxlength="64"/>
+			<multilinestring/>
+		</property>
+	</group>
+</item>

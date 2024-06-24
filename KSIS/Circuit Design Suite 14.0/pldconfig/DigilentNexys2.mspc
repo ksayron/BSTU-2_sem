@@ -1,0 +1,140 @@
+<PLDConfiguration Version="1.1">
+	<Component Name="Digilent Nexys 2" PartNumber="XC3S500E" Version="2.0" OpVoltageInput="3.3" OpVoltageOutput="3.3" OpVoltageBidirectional="3.3" BoardId="90e647c5-1261-4cd3-9a19-3a0f8da8c07c">
+		<DeviceList BoardName="Digilent Nexys 2">
+			<XilinxDevice Manufacturer="Xilinx" Family="Spartan3e" Device="XC3S500E" Package="fg320" Speed="-4" DeviceOffset ="1" DeviceId="01000001110000100010000010010011" Ucf="DigilentNexys2.UCF" />
+		</DeviceList>
+		<ProgrammingProperties>
+			<Interface CableTarget="digilent_plugin"/>
+		</ProgrammingProperties>
+		<Pins Locked="1">
+		
+			<Pin Name="clk" Mode="in" ForceExport="1" Location="left" Place="0" />
+			<Pin Name="oscillator_socket" Mode="in" ForceExport="1" Location="left" Place="0" />
+	
+			<Pin Place="1" Mode="in" Name="SW0" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW1" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW2" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW3" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW4" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW5" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW6" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW7" Location="left" />
+			
+			<Pin Place="1" Mode="in" Name="BTN0" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN1" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN2" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN3" Location="left" />
+			
+			<Pin Place="0" Mode="bidir" Name="LED0" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="LED1" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="LED2" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="LED3" GeneralPurpose="1" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED4" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED5" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED6" Location="right" />
+			<Pin Place="1" Mode="out" Name="LED7" Location="right" />
+			
+			<Pin Place="1" Mode="out" Name="AN0" Location="right" />
+			<Pin Place="1" Mode="out" Name="AN1" Location="right" />
+			<Pin Place="1" Mode="out" Name="AN2" Location="right" />
+			<Pin Place="1" Mode="out" Name="AN3" Location="right" />
+			
+			<Pin Place="1" Mode="out" Name="SEGA" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGB" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGC" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGD" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGE" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGF" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGG" Location="right" />
+			<Pin Place="1" Mode="out" Name="DP" Location="right" />
+			
+			<Pin Place="0" Mode="bidir" Name="JA1" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA2" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA3" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA4" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA7" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA8" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA9" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="JA10" GeneralPurpose="1" Location="left" />
+			
+			<Pin Place="0" Mode="bidir" Name="JB1" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB2" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB3" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB4" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB7" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB8" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB9" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JB10" GeneralPurpose="1" Location="right" />
+			
+			<Pin Place="0" Mode="bidir" Name="JC1" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC2" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC3" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC4" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC7" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC8" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC9" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JC10" GeneralPurpose="1" Location="right" />
+			
+			<Pin Place="0" Mode="bidir" Name="JD1" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JD2" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JD3" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="JD4" GeneralPurpose="1" Location="right" />
+			
+			<Pin Place="0" Mode="out" Name="vgaRed_1" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaRed_2" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaRed_3" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaGreen_1" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaGreen_2" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaGreen_3" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaBlue_2" Location="right" />
+			<Pin Place="0" Mode="out" Name="vgaBlue_3" Location="right" />
+			<Pin Place="0" Mode="out" Name="Hsync" Location="right" />
+			<Pin Place="0" Mode="out" Name="Vsync" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PS2C" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="bidir" Name="PS2D" GeneralPurpose="1" Location="left" />
+			<Pin Place="0" Mode="in" Name="RsRx" Location="left" />
+			<Pin Place="0" Mode="out" Name="RsTx" Location="right" />
+
+			<Pin Place="0" Mode="bidir" Name="PIO_0" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_1" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_2" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_3" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_4" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_5" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_6" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_7" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_8" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_9" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_10" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_11" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_12" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_13" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_14" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_15" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_16" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_17" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_18" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_19" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_20" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_21" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_22" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_23" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_24" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_25" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_26" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_27" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_28" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_29" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_30" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_31" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_32" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_33" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_34" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_35" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_36" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_37" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_38" GeneralPurpose="1" Location="right" />
+			<Pin Place="0" Mode="bidir" Name="PIO_39" GeneralPurpose="1" Location="right" />		
+		</Pins>
+	</Component> 
+</PLDConfiguration>

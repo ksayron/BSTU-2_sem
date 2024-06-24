@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=GB2312">
+<title>NI许可证管理器自述文件</title>
+
+<style type="text/css">
+/***************************************************/
+/* MINIMAL STYLES */
+/* The following section defines styles that every HTML Help project should need. */
+
+/* Specifies White Background color */
+body {background-color:#ffffff}
+P { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color: #000000; }
+BR { font-size:4.00pt; }
+H1,H2,H3,H4,H5,H6 { color:#000000 }
+/* Use H1 for all topic headings. */
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:12pt; font-weight:bold;  }
+/* Use H2 for second-level headings. */
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:10pt; font-weight:bold;  }
+/* Use H3 for third-level headings. */
+H3 { margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+/* Use H4 for fourth-level headings. */
+H4 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+H5 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+H6 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+/* Use the Body style class for normal paragraphs. */
+P.Body { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+/* Use the Anchor style class for graphic references on a line by themselves. */
+P.Anchor { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:10pt; color:#000000;  }
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br><br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+P.Indent1 { margin-left:12.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+P.Indent2 { margin-left:24.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+P.Indent3 { margin-left:36.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+/* Use the LI style for all list items. */
+LI { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+OL { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+OL.EquationNum { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+OL.List-abc { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type:lower-alpha; }
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+UL { margin-left:12.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;}
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+UL.List-Box { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: square; }
+/* Use the Platform format to denote a specific platform. */
+.Platform { color: #0000FF; font-weight: bold; }
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+Table.Borderless { border:none; }
+/* Use the Bordered style class for tables that need borders. */
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+/* Use the Borderless-Wide style class for tables that do not need borders and that you want to stretch to fill the entire topic width. */
+Table.Borderless-Wide { border:none; width:100%; }
+/* Use the Bordered-Wide style class for tables that need borders and that you want to stretch to fill the entire topic width. */
+Table.Bordered-Wide { border-width: 1pt; border-style: solid; border-color: #000000; width:100%; border-collapse: collapse; }
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+TD { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; padding:3px; }
+/* Use the Bordered style class for table cells in Bordered or Bordered-Wide tables. */
+TD.Bordered { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; border-width: 1pt; border-style: solid; border-color: #000000; }
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+TD.Icon { width:40px; vertical-align:top; }
+/* Use the Table-cell-8pt style class for table cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TD.Table-cell-8pt { font-family:Verdana; font-size:7pt; color:#000000;  }
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+TH { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; }
+/* Use the Bordered style class for table heading cells in Bordered or Bordered-Wide tables. */
+TH.Bordered { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold;  border-width: 1pt; border-style: solid; border-color: #000000; }
+/* Use the Table-cell-8pt style class for table heading cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TH.Table-Head-8pt { font-family:Verdana; font-size:7pt; color:#000000; font-weight:bold; }
+/* Use the Left-Align style class for table heading cells that you want to left align instead of center align. */
+TH.Left-Align { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; text-align:left; }
+
+/***************************************************/
+/* CHARACTER FORMATS */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* Use the Dark-Red format for warnings or cautions. */
+#Dark-Red { color: #800000 }
+/* Use the Monospace format for code or syntax examples. */
+#Monospace { font-family: "Courier New"; font-size: 8pt; }
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+
+/* Use the Monospace format for code or syntax examples. */
+.Monospace { font-family: "Courier New"; font-size: 8pt; }
+
+#Monospace-Bold { font-family: "Courier New"; font-size: 8pt; font-weight: bold; }
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+#Monospace-Italic { font-family: "Courier New"; font-size: 8pt; font-style: italic; }
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+#Symbol { font-family: Symbol; font-size: 8pt; }
+/* The following styles define the color of links. */
+a:link { color: #007700 }
+a:hover { color: #FF0000 }
+a:active { color: #FF0000 }
+a:visited { color: #7F007F }
+
+/***************************************************/
+/* ACTIVITY STYLES */
+/* The following section defines styles that only tutorial-style HTML Help projects should need. */
+
+/* Use the Activity-Objective style class for the objective at the beginning of an activity topic. */
+H3.Activity-Objective { color: #800000; }
+
+/***************************************************/
+/* CODE STYLES */
+/* The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+
+P.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+
+/***************************************************/
+/* FUNCTION STYLES */
+/* The following section defines styles that you might need to format function reference help. */
+
+P.F-VI-Code4 { margin-left:48.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.F-VI-Code5 { margin-left:60.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.F-VI-Equation { margin-top:9.00pt; margin-bottom:9.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+
+OL.F-VI-EquationNum { margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+
+.tm { font-size : 5pt; vertical-align:top;}
+.blue { color: #0000FF;  font-weight: bold;}
+
+/* Use for template instructions. */
+.instructions{color:red; font-style:italic}
+
+/*Use for words and text sections that do not need to be localized */
+.DNL { }
+
+</style>
+</head>
+<body>
+
+<h1>NI许可证管理器自述文件</h1>
+
+<p>NI许可证管理器用于激活并管理许可证文件、配置系统上安装的NI产品，以及从批量许可证服务器上获取许可证。</p>
+
+
+<h2><a name="known"></a>已知问题记录</h2>
+<p class="Body">下表列出了NI许可证管理器3.7版的已知问题，以及可用的解决办法。</p>
+<div class="dnl">
+<table class="Bordered" width="100%">
+
+<tr><th class="Bordered">ID</th><th class="Bordered">Known Issue</th></tr>
+
+<tr><td class="Bordered">136355, 136356</td><td class="Bordered">Computers using older versions of NI software, such as NI TestStand 3.0, NI LabVIEW 7.1, or NI LabWindows&#8482;/CVI&#8482; 7.0 cannot check out a license from a volume license server.
+<br><br>
+<strong>Workaround:</strong>&nbsp;Contact NI technical support at <a href="mailto:support@ni.com">support@ni.com</a> for assistance in resolving this issue. Refer to KnowledgeBase article 475FE2QA for more information.</td></tr>
+
+</table>
+
+</div>
+
+
+
+<h2><a name="bug_fixes"></a>问题修正</h2>
+<p class="Body">下表列出了NI许可证管理器3.7中已修正的部分问题。 下表未列尽所有已修正的问题。</p>
+<div class="dnl">
+<table class="Bordered">
+<tr>
+<th class="Bordered">ID</th>
+<th class="Bordered">Fixed Issue</th>
+</tr>
+
+
+<tr><td class="Bordered">220216</td><td class="Bordered">Fixed an issue where disconnected licenses were not accounted for in NI License Manager in-use count.<br><br>
+<strong>Note:</strong>&nbsp;&nbsp;Requires NI Volume License Manager 3.0 or later.</td></tr>
+<tr><td class="Bordered">306393</td><td class="Bordered">Fixed an issue where a Try Again/Continue/Cancel Media prompt appeared during activation if the media is changed.</td></tr>
+<tr><td class="Bordered">300220</td><td class="Bordered">Fixed an issue where a bad network adapter caused activation to fail.</td></tr>
+<tr><td class="Bordered">129588</td><td class="Bordered">Fixed an issue with enforcing the End User License Agreement (EULA) properly with temporary named-user licenses obtained from a volume license server.</td></tr>
+
+</table>
+</div>
+
+<h2>自动安装NI产品</h2>
+<p class="Body">可使用命令行参数来自动安装大多数NI产品，以减少安装程序用户界面和对话框交互。 从2012年8月开始（使用NI Installers 3.1及更高版本），需额外步骤才能进行NI产品后台安装。</p>
+
+<p class="Body">如安装的的产品使用了Microsoft .NET Framework 4.0，.NET Framework 4.0的安装程序会在NI软件安装之前运行。开始安装NI软件之前可能需要重启计算机。 为了避免重启计算机，建议在安装NI软件之前单独安装.NET Framework 4.0。</p>
+
+<p class="Body">详细信息请参考下列知识库文章：</p>
+<ul>
+<li>关于分别在后台单独安装NI产品的详细信息，请参考KB 4CJDP38M：<a href="http://digital.ni.com/express.nsf/bycode/InstallerAutomation">在后台安装单个安装程序</a>。</li>
+<li>关于分别在后台单独安装NI软件套件的详细信息，请参考KB 4GGGDQH0：<a href="http://digital.ni.com/express.nsf/bycode/SuiteInstallerAutomation">在后台安装软件套件的安装程序</a>。</li>
+<li>要查看产品的NI Installers版本号，请参考KB 4CJDR18M：<a href="http://digital.ni.com/express.nsf/bycode/InstallerVersion">如何判断NI安装程序的版本？</a></li>
+</ul>
+
+<br> <!--Important Information-->
+<hr>
+<h2>重要信息</h2>
+
+
+<!--Copyright-->
+<p class="Body"><strong>版权</strong></p>
+<p class="Body">&copy;2004&ndash;2012 National Instruments Corporation. 版权所有</p>
+
+<p class="Body">根据版权法，未经National Instruments公司事先书面同意，本发行物不得以任何形式（包括电子或机械形式）进行全部或部分复制或传播，包括影印、录制、翻译，或储存于任何信息检索系统中。</p>
+
+<p class="Body">National Instruments公司尊重他方的知识产权，也恳请用户能给予我们同样的尊重。  NI软件受版权法及其他知识产权法的保护。  在将NI软件用于复制为他方所有的软件或其他资料的任何场合，NI软件仅可用于在符合许可证或其他法律限制的情况下复制上述资料。</p>
+
+<!-- EULA -->
+<p class="Body"><strong>最终用户许可协议和第三方法律声明</strong></p>
+<p>可在下列位置找到最终用户许可协议(EULA)和第三方法律声明：</p>
+<ul>
+<li><span class="Monospace">&lt;National Instruments&gt;\_Legal Information</span>和<span class="Monospace">&lt;National Instruments&gt;</span>目录下有法律声明。</li> 
+<li><span class="Monospace">&lt;National Instruments&gt;\Shared\MDF\EULAs</span>目录下有最终用户许可协议。</li>
+<li>关于NI产品生成安装程序的法律信息，请参考<span class="Monospace">&lt;National Instruments&gt;\_Legal Information.txt</span>。</li>
+</ul>
+
+<!--Trademarks-->
+<p class="Body"><strong>商标</strong></p>
+
+<p class="Body"><span class="DNL">LabVIEW</span>、<span class="DNL">National Instruments</span>、<span class="DNL">NI</span>、<span class="DNL">ni.com</span>和<span class="DNL">National Instruments</span>为<span class="DNL">National Instruments Corporation</span>的注册商标。 关于其他<a href="http://digital.ni.com/express.nsf/bycode/rdtrad" target="_blank"><span class="DNL">National Instruments</span>商标</a>的详细信息见<span class="Monospace">ni.com/trademarks</span>的<em><span class="DNL">Trademark Information</span></em>部分。</p>
+
+<p class="Body">此处提及的其它产品和公司名称均为其各自公司的商标或商业名称。</p>
+
+<!--Patents-->
+<p class="Body"><strong>专利权</strong></p>
+<p class="Body">关于NI产品和技术的专利权，请查看软件中的<strong>帮助&raquo;专利信息</strong>，光盘中的<span class="Monospace">patents.txt</span>文件，或者<span class="Monospace">ni.com/patents</span>上的<a href="http://digital.ni.com/express.nsf/bycode/rdlv17" target="_blank">National Instruments Patent Notice</a>。</p>
+
+</body>
+</html>

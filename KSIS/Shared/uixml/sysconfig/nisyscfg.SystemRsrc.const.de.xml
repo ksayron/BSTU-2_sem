@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="systemres">Systemressourcen</str>
+	<str name="totalmem">Physikalischer Speicher (gesamt)</str>
+	<str name="freemem">Physikalischer Speicher (frei)</str>
+	<str name="totalvirt">Virtueller Speicher (gesamt)</str>
+	<str name="freevirt">Virtueller Speicher (frei)</str>
+	<str name="largestblock">Größter verfügbarer Speicherblock</str>
+	<str name="totaldisk">Speicherplatz der primären Festplatte</str>
+	<str name="freedisk">Freier Speicherplatz der primären Festplatte</str>
+	<str name="value-error">Fehler</str>
+	<str name="cputotal">CPU-Gesamtauslastung</str>
+	<str name="cpuintr">CPU-Interrupt-Auslastung</str>
+</uistrings>

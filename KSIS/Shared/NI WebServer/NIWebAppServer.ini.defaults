@@ -1,0 +1,15 @@
+[Server]
+DAVEnabled = false
+
+[Hosts]
+Default = "Default Host"
+
+[Default]
+Enabled = true
+Port = 8080
+Address = "*"
+
+[AllHosts_]
+Enabled = false
+SSLEnabled = false
+

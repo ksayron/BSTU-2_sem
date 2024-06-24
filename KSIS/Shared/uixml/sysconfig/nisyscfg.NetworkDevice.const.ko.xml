@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="hostname">호스트 이름</str>
+  <str name="ipaddress">IPv4 주소</str>
+  <str name="comments">주석</str>
+</uistrings>

@@ -1,0 +1,35 @@
+﻿NI Curl 2015
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE MIT/X LICENSE 
+
+This product includes code from cURL 7.26.0 licensed by a third party or parties pursuant to The MIT/X License, which can be found at "..\..\Shared\MDF\Legal\license\MIT-X\1.0.0" and that is subject to the following notice(s):
+
+Copyright (c) 1996 - 2012, Daniel Stenberg, daniel@haxx.se
+All rights reserved.
+
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ 
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE MOZILLA PUBLIC LICENSE 2.0
+
+This product includes code from Mozilla Certdata 1.87 licensed by a third party or parties pursuant to the Mozilla 2.0 Public License, which may be found at "..\..\Shared\MDF\Legal\license\MPL\2.0", and is subject to the following notices:
+
+https://mxr.mozilla.org/mozilla/source/security/nss/lib/ckfw/builtins/certdata.txt?raw=1
+
+To request source code for this component, please send an email to licensing@ni.com.

@@ -1,0 +1,161 @@
+<PLDConfiguration Version="1.1">
+	<Component Name="NI Digital Electronics FPGA Board (7 Segment)" PartNumber="XC3S500E" Version="2.0" OpVoltageInput="3.3" OpVoltageOutput="3.3" OpVoltageBidirectional="3.3" BoardId="BB84F744-1D5B-4326-AFAB-8E49B6057FB5">
+  <DeviceList BoardName="NI Digital Electronics FPGA Board">
+      <XilinxDevice Manufacturer="Xilinx" Family="Spartan3e" Device="XC3S500E" Package="ft256" Speed="-4" DeviceOffset ="1" DeviceId="01000001110000100010000010010011" Ucf="DEFB.UCF" />
+  </DeviceList>
+		<Pins Locked="1">
+
+			<Pin Place="1" Mode="in" Name="SW0" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW1" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW2" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW3" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW4" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW5" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW6" Location="left" />
+			<Pin Place="1" Mode="in" Name="SW7" Location="left" />
+			
+			<Pin Place="1" Mode="in" Name="BTN0" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN1" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN2" Location="left" />
+			<Pin Place="1" Mode="in" Name="BTN3" Location="left" />
+			
+			<Pin Place="0" Mode="out" Name="LED0" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED1" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED2" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED3" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED4" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED5" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED6" Location="right" />
+			<Pin Place="0" Mode="out" Name="LED7" Location="right" />
+			
+			<Pin Place="0" Mode="in" Name="GPIO0" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO1" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO2" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO3" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO4" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO5" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO6" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO7" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO8" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO9" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO10" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO11" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO12" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO13" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO14" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO15" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO16" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO17" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO18" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO19" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO20" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO21" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO22" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO23" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO24" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO25" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO26" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO27" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO28" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO29" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO30" Location="left" GeneralPurpose="1" />
+			<Pin Place="0" Mode="in" Name="GPIO31" Location="left" GeneralPurpose="1" />
+			
+			<Pin Place="1" Mode="out" Name="SEGA0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGB0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGC0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGD0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGE0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGF0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGG0" Location="right" />
+			<Pin Place="1" Mode="out" Name="COM0" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGA1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGB1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGC1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGD1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGE1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGF1" Location="right" />
+			<Pin Place="1" Mode="out" Name="SEGG1" Location="right" />
+			<Pin Place="1" Mode="out" Name="COM1" Location="right" />
+			
+			<Pin Place="0" Mode="in" Name="J1_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J1_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="in" Name="J2_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J2_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="in" Name="J3_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J3_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="in" Name="J4_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J4_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="in" Name="J5_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J5_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="in" Name="J6_IO1" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO2" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO3" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO4" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO5" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO6" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO7" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO8" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO9" Location="left" />
+			<Pin Place="0" Mode="in" Name="J6_IO10" Location="left" />
+			
+			<Pin Place="0" Mode="out" Name="SCK" Location="right" />
+			<Pin Place="0" Mode="in" Name="SDO" Location="left" />
+			<Pin Place="0" Mode="out" Name="SDI" Location="right" />
+			<Pin Place="0" Mode="out" Name="AD_CONV" Location="right" />
+			<Pin Place="0" Mode="in" Name="AMP_DO" Location="left" />
+			<Pin Place="0" Mode="out" Name="AMP_SHDN" Location="right" />
+			<Pin Place="0" Mode="out" Name="AMP_CS" Location="right" />
+			<Pin Place="0" Mode="out" Name="DAC_CS" Location="right" />
+			<Pin Place="0" Mode="out" Name="DAC_CLR" Location="right" />
+			
+			<Pin Place="0" Mode="in" Name="sys_clk_pin" Location="left" ForceExport="1" />
+			
+		</Pins>
+	</Component>
+</PLDConfiguration>

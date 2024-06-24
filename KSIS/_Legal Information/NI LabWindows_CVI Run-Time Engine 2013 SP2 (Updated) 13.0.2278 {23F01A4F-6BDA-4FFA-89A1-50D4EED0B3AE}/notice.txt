@@ -1,0 +1,78 @@
+﻿NI LabWindows/CVI 2013 SP2 Run-Time Engine (Updated)
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE LIBTIFF SOFTWARE LICENSE
+
+This product includes code from Libtiff 1.2 licensed by a third party or parties pursuant to the to the LibTIFF Software License, which can be found at "..\..\Shared\MDF\Legal\license\Libtiff\1.2.0" and that is subject to the following notice(s):
+
+Copyright (c) 1988-1997 Sam Leffler
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE ZLIB LICENSE
+
+This product includes code from Zlib 1.2.3 licensed by a third party or parties pursuant to the zlib software license, which can be found at "..\..\Shared\MDF\Legal\license\zlib\1.0.0" and that is subject to the following notice(s):
+
+Copyright (C) 1995-2010 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+Jean-loup Gailly (jloup@gzip.org) and Mark Adler (madler@alumni.caltech.edu)
+
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE STRTOD LICENSE
+
+This product includes code from Strtod licensed by a third party or parties pursuant to the Strtod License, which can be found at "..\..\Shared\MDF\Legal\license\Strtod\2006.5.2", and that is subject to the following notice(s):
+
+The author of strtod is David M. Gay.
+
+Copyright (c) 1991, 2000, 2001 by Lucent Technologies.
+
+Permission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software and in all copies of the supporting documentation for such software.
+
+THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED WARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR SOFTWARE IN THE PUBLIC DOMAIN
+
+This product includes code from lookup3.c released into the public domain by a third party or parties, and subject to the following notice(s):
+
+Bob Jenkins, May 2006, Public Domain.
+
+
+****************************************
+
+DOCUMENTATION NOTICE FOR THE MIT LICENSE
+
+This product includes code from libpng 1.2.23 licensed by a third party or parties pursuant to the libpng license, which can be found at "..\..\Shared\MDF\Legal\license\LibPNG" and that is subject to the following notice(s):
+
+Copyright (c) 2004, 2006-2011 Glenn Randers-Pehrson
+
+****************************************
+
+DOCUMENTATION NOTICE FOR PROPRIETARY SOFTWARE
+
+This product includes code from Independent JPEG Group's free JPEG software licensed by a third party or parties that is subject to the following notice(s):
+
+This software is based in part on the work of the Independent JPEG Group. Copyright (C) 1991-1996, Thomas G. Lane.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="systemsettings">Systemeinstellungen</str>
+	<str name="hostname">Host-Name</str>
+	<str name="ipaddress">IP-Adresse</str>
+	<str name="dnsname">DNS-Name</str>
+	<str name="os">Betriebssystem</str>
+	<str name="status">Status</str>
+	<str name="comments">Kommentare</str>
+	<str name="description">Beschreibung</str>
+	<str name="locale">Ländereinstellung</str>
+	<str name="de">Deutsch</str>
+	<str name="en">Englisch</str>
+	<str name="fr">Französisch</str>
+	<str name="ja">Japanisch</str>
+	<str name="ko">Koreanisch</str>
+	<str name="zh-CN">Chinesisch (vereinfacht)</str>
+	<str name="haltonip">Bei IP-Fehler anhalten</str>
+	<str name="startupsettings">Starteinstellungen</str>
+	<str name="safemode">Sicheren Modus erzwingen</str>
+	<str name="consoleout">Konsolenausgabe aktivieren</str>
+	<str name="ipreset">IP-Reset</str>
+	<str name="shutdown">Letzter Absturz</str>
+	<str name="shutdown-unexpected">Das System wurde unerwarteterweise herunterfahren.</str>
+	<str name="shutdown-temperature">Die Systemtemperatur überschreitet den zulässigen Bereich.</str>
+	<str name="boottime">Systemstartzeit</str>
+	<str name="allowremotesystemconfig">Internetzugriff auf Systemkonfiguration</str>
+	<str name="localonly">Nur lokal</str>
+	<str name="allowremote">Lokal und über Netzwerk</str>
+	<str name="imagetitle">Abbildtitel</str>
+	<str name="imageversion">Abbildversion</str>
+</uistrings>

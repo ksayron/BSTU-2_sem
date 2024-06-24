@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="extcalibration">外部キャリブレーション</str>
+<str name="lastcalibrated">キャリブレーション日</str>
+<str name="recommendednext">推奨する次のキャリブレーション</str>
+<str name="extcalduedate">キャリブレーション期日</str>
+<str name="recommendedint">推奨間隔</str>
+<str name="caltemperature">デバイス温度</str>
+<str name="calcomments">コメント</str>
+<str name="na">N/A</str>
+<str name="degC">℃</str>
+<str name="months"> 月数</str>
+<str name="changecalpassword">パスワードを変更</str>
+</uistrings>

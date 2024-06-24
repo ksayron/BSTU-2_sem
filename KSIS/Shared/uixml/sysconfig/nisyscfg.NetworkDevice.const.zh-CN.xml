@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="hostname">主机名称</str>
+<str name="ipaddress">IPv4地址</str>
+<str name="comments">注释</str>
+</uistrings>

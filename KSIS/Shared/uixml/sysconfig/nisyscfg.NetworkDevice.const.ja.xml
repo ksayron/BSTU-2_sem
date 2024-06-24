@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="hostname">ホスト名</str>
+<str name="ipaddress">IPv4アドレス</str>
+<str name="comments">コメント</str>
+</uistrings>

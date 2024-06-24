@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoftwareInfo>
+	<Name>CVI Run-Time</Name>
+	<DisplayName>LabWindows/CVI Run-Time</DisplayName>
+	<Description>The LabWindows/CVI Run-Time Engine is necessary to run executables or use DLLs you create with LabWindows/CVI, and it must be present on any target computer on which you want to run your executable program.</Description>
+	<Path>%SYSTEM32%\CVIRTE.DLL</Path>
+	<Version file="true">%SYSTEM32%\CVIRTE.DLL</Version>
+	<YearBasedVersion key="true">SOFTWARE\National Instruments\CVI Run-Time Engine\VersionYear</YearBasedVersion>
+	<IsLaunchable>false</IsLaunchable>
+	<IsUpdateable>true</IsUpdateable>
+	<IsWatched>true</IsWatched>
+	<DefaultIcon key="true">National Instruments\Common\Installer\NISHAREDDIR</DefaultIcon>
+	<DefaultIcon>\MAX\Software\cvi.ico</DefaultIcon>
+	<French>
+		<Description>Le moteur d&apos;exécution de LabWindows/CVI est nécessaire au lancement d&apos;exécutables ou à l&apos;utilisation de DLL que vous créez avec LabWindows/CVI et doit être présent sur n&apos;importe quel ordinateur ou vous souhaitez exécuter votre programme.</Description>
+	</French>
+	<German>
+		<Description>Die LabWindows/CVI Runtime-Engine ist für die Ausführung von kompilierten Programmen oder DLLs, die mit LabWindows/CVI erzeugt wurden, notwendig und muss daher auf jedem Computer, auf dem diese Programme/DLLs ausgeführt werden sollen vorhanden sein.</Description>
+	</German>
+	<Japanese>
+		<Description>実行ファイルを実行またはLabWindows/CVIと一緒に作成したDLLを使用するためには、LabWindows/CVI ランタイムエンジンが必要です。実行プログラムを実行するターゲットコンピュータ上にこのランタイムエンジンが必要になります。</Description>
+	</Japanese>
+</SoftwareInfo>

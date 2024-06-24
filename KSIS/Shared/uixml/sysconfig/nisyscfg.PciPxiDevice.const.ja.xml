@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="pcibus">PCIバス</str>
+<str name="pcidev">PCIデバイス</str>
+<str name="pcifunc">PCI関数</str>
+</uistrings>

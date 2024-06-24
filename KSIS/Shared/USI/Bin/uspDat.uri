@@ -1,0 +1,36 @@
+<usireginfo>
+  <storetype name="DAT">
+    <defaultfiltefilter extension="dat"/>
+    <filefilters extension="dat">
+      <description>DIAdem DAT files (*.dat)</description>
+    </filefilters>
+    <alias>DAT</alias>
+    <importsupported>YES</importsupported>
+    <exportsupported>NO</exportsupported>
+    <description>DIAdem DAT Files</description>
+    <filepath>uspDat.dll</filepath>
+    <caching>YES</caching>
+    <system>NO</system>
+    <iconinfo>"uspDat.dll" ICON_RESOURCE 5001</iconinfo>
+    <protected>1</protected>
+    <fastloadsupported>1</fastloadsupported>
+    <platform>win32</platform>
+  </storetype>
+  <storetype name="DAT">
+    <defaultfiltefilter extension="dat"/>
+    <filefilters extension="dat">
+      <description>DIAdem DAT files (*.dat)</description>
+    </filefilters>
+    <alias>DAT</alias>
+    <importsupported>YES</importsupported>
+    <exportsupported>NO</exportsupported>
+    <description>DIAdem DAT Files</description>
+    <filepath>uspDat.dll</filepath>
+    <caching>YES</caching>
+    <system>NO</system>
+    <iconinfo>"uspDat.dll" ICON_RESOURCE 5001</iconinfo>
+    <protected>1</protected>
+    <fastloadsupported>1</fastloadsupported>
+    <platform>x64</platform>
+  </storetype>
+</usireginfo>

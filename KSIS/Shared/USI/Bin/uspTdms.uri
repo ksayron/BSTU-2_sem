@@ -1,0 +1,52 @@
+<usireginfo>
+    <substitution name="USI">
+        <regkey>Software\National Instruments\Common\USI</regkey>
+        <regvalue>binDir</regvalue>
+        <type>path</type>
+    </substitution>
+
+    <storetype name="TDMS">
+        <defaultfiltefilter extension="tdms"/>
+        <filefilters extension="tdms">
+             <description>TDMS files(*.tdms)</description>
+        </filefilters>
+        <alias>TDMS</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>1</exportsupported>
+        <description>National Instruments TDM Streaming</description>
+        <filepath>uspTdms.dll</filepath>
+        <caching>1</caching>
+        <system>0</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"uspTdms.dll" ICON_RESOURCE 5001</iconinfo>
+        <protected>1</protected>
+        <easypluginparam><![CDATA[<dllloading>nisharedretry</dllloading>]]></easypluginparam>
+        <model>TDM_1_0</model>
+        <editmode>no</editmode>
+        <fastloadsupported>1</fastloadsupported>
+        <platform>win32</platform>
+    </storetype>
+
+    <storetype name="TDMS">
+        <defaultfiltefilter extension="tdms"/>
+        <filefilters extension="tdms">
+             <description>TDMS files(*.tdms)</description>
+        </filefilters>
+        <alias>TDMS</alias>
+        <importsupported>1</importsupported>
+        <exportsupported>1</exportsupported>
+        <description>National Instruments TDM Streaming</description>
+        <filepath>uspTdms.dll</filepath>
+        <caching>1</caching>
+        <system>0</system>
+        <filtercasesensitive>NO</filtercasesensitive>
+        <iconinfo>"uspTdms.dll" ICON_RESOURCE 5001</iconinfo>
+        <protected>1</protected>
+        <easypluginparam><![CDATA[<dllloading>nisharedretry</dllloading>]]></easypluginparam>
+        <model>TDM_1_0</model>
+        <editmode>no</editmode>
+        <fastloadsupported>1</fastloadsupported>
+        <platform>x64</platform>
+    </storetype>
+
+</usireginfo>

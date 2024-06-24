@@ -1,0 +1,1 @@
+The EULAs that were located here in the MDF\EULAs folder have been moved to the MDF\Legal\license folder.

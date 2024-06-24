@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="settings">Einstellungen</str>
+	<str name="name">Name</str>
+	<str name="vendor">Hersteller</str>
+	<str name="model">Modell</str>
+	<str name="serialnumber">Seriennummer</str>
+	<str name="firmware">Firmware-Version</str>
+	<str name="hwrevision">Hardwareversion</str>
+	<str name="slotnumber">Slot</str>
+	<str name="status">Status</str>
+	<str name="currenttemp">Aktuelle Gerätetemperatur</str>
+	<str name="degC">°C</str>
+</uistrings>

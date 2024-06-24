@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+    <group id="settings" caption="{systemsettings}" order="0" weight="200">
+        <property id="name" caption="{hostname}" sysattr="16904192" order="0" weight="100" visible="always"/>
+        <property id="fulldns" caption="{dnsname}" sysattr="219234304" order="2000"/>
+        <property id="os" caption="{os}" sysattr="17104896" order="14000" visible="always"/>
+        <property id="scs_status" sysattr="0" weight="100" visible="false"/>
+        <property id="shutdown" caption="{shutdown}" sysattr="17039360" order="31000" delayed="true" undefinedif="0">
+            <map value="1" caption="{shutdown-unexpected}"/>
+            <map value="2" caption="{shutdown-temperature}"/>
+        </property>
+        <property id="boottime" caption="{boottime}" sysattr="17108992" order="31000"/>
+        <property id="comments" caption="{description}" sysattr="17027072" delayed="true" order="40000" visible="always">
+            <strlenrange maxlength="64"/>
+            <multilinestring/>
+        </property>
+        <property id="allowremotesystemconfig" caption="{allowremotesystemconfig}" sysattr="219504640" writable="true" order="43000" weight="100">
+            <constoptions>
+                <option value="0"/>
+                <option value="1"/>
+            </constoptions>
+            <map value="0" caption="{localonly}"/>
+            <map value="1" caption="{allowremote}"/>
+        </property>
+    </group>
+</item>
